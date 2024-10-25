@@ -571,13 +571,13 @@ function library:InitNotifications(text, duration, callback)
         if type == "notification" then
             bar.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
         elseif type == "alert" then
-            bar.BackgroundColor3 = Color3.fromRGB(255, 246, 112)
+            bar.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
         elseif type == "error" then
-            bar.BackgroundColor3 = Color3.fromRGB(255, 74, 77)
+            bar.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
         elseif type == "success" then
-            bar.BackgroundColor3 = Color3.fromRGB(131, 255, 103)
+            bar.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
         elseif type == "information" then
-            bar.BackgroundColor3 = Color3.fromRGB(126, 117, 255)
+            bar.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
         end
     
         barCorner.CornerRadius = UDim.new(0, 2)
